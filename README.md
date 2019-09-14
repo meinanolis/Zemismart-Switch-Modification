@@ -44,7 +44,16 @@ And yes, you can use the HC-SR501 with 3.3V. You just have to connect the power 
 
 ## Setting up ESPEasy
 
-Now you can setup ESPEasy. 
+Now you can setup ESPEasy. Everything is detailed [here](https://www.letscontrolit.com/wiki/index.php?title=ESP_Easy_web_interface). Below I concentrate on the project specific settings.
+
+### Hardware Tab
+
+after powerup the Relais should be one on and the other off for having the regularswitch working. you can do that in the Hardware tab by setting the Bootstate of:
+
+* GPIO13 to Low
+* GPIO14 to High
+
+### Devices
 
 * The two push buttons are configured as *switch inputs* and button type *active low*.
 * If you like to you can also configure the relais as switches but thats optional.
@@ -52,3 +61,22 @@ Now you can setup ESPEasy.
 * The configuration of the BMP280 is explained [here](https://www.letscontrolit.com/wiki/index.php?title=BME280).
 
 ![ESP_setting](https://github.com/meinanolis/Zemismart-Switch-Modification/blob/3d7dbc4d4c6955987a470c4cf29de6e8435dda06/img/ESP_Devices.png "ESP_setting")
+
+### Rules
+
+For the switch to also work without connection enable the Rules and input
+
+```
+on System#Boot do
+   gpio,13,1
+   gpio,14,0
+endon
+on RightButton#State do
+   if [Relais_1#State]=0
+      gpio,13,1
+      gpio,14,0
+   else
+      gpio,13,0
+      gpio,14,1
+endon
+```
