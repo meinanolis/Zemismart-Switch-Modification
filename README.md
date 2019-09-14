@@ -16,7 +16,7 @@ I chose this switch since i wanted a switch with physical buttons and it is beau
 
 There are quite a lot [tutorials](https://www.letscontrolit.com/wiki/index.php/Basics:_Connecting_and_flashing_the_ESP8266) for flashing an ESP. So brief here:
 
-1. Power the ESP with 3,3V max. Powering it via its own powersupply with 230V is a no no.
+1. power the ESP with 3,3V max. Powering it via its own powersupply with 230V is a no no.
 1. connect Tx->Rx, Rx->Tx, Vcc->3.3V, GND->GND and GPIO0->GND during Boot.
 1. flash ESPEasy (ESP_Easy_mega-*****_normal_core_241_ESP8266_1M.bin)
 
