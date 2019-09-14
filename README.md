@@ -24,4 +24,5 @@ There are quite a lot [tutorials](https://www.letscontrolit.com/wiki/index.php/B
 
 In my hallway i have two switches. They are connected as shown [here](https://en.wikipedia.org/wiki/Multiway_switching). To make my hallway smart I replaced the first 2-way-switch with the dual smart switch as shown in the below figure.
 
-![pinout](https://github.com/meinanolis/Zemismart-Switch-Modification/blob/0154c4811b8b5eb5be7da9a4c8c276da7167ca6f/img/Pinout.png "pinout")
+![Connecting the Mains](https://github.com/meinanolis/Zemismart-Switch-Modification/blob/73456aa9139646c78f6fd4081fd860a0ff3e0f1e/img/2-WegeSchaltung.png "Connecting the Mains")
+
