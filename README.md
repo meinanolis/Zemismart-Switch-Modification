@@ -51,4 +51,4 @@ Now you can setup ESPEasy.
 * Also the PIR is nothing but a switch input.
 * The configuration of the BMP280 is explained [here](https://www.letscontrolit.com/wiki/index.php?title=BME280).
 
-![ESP_setting](https://github.com/meinanolis/Zemismart-Switch-Modification/blob/36a05152045a19ae01fd1d60db242cb51a337bbd/img/Sensors.png "ESP_setting")
+![ESP_setting](https://github.com/meinanolis/Zemismart-Switch-Modification/blob/3d7dbc4d4c6955987a470c4cf29de6e8435dda06/img/ESP_Devices.png "ESP_setting")
