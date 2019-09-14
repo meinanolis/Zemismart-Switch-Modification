@@ -10,7 +10,7 @@ in this project I used the Zemismart Switch (ZM-L02E), flashed ESPEasy onto it, 
 
 I chose this switch since i wanted a switch with physical buttons and it is beautiful. Since in my hallway there is a 2-Way-Switch system ([wiki](https://en.wikipedia.org/wiki/Multiway_switching)) I need a dual switch. I was very pleased after I ordered it and finding a big ESP-chip inside with easy accesible contacts.
 
-![pinout](https://github.com/meinanolis/Zemismart-Switch-Modification/blob/0154c4811b8b5eb5be7da9a4c8c276da7167ca6f/img/Pinout.png "pinout")
+![Zemismart Switch ZM-L02E Pinout](https://github.com/meinanolis/Zemismart-Switch-Modification/blob/0154c4811b8b5eb5be7da9a4c8c276da7167ca6f/img/Pinout.png "Zemismart Switch ZM-L02E Pinout")
 
 ## Flashing
 
