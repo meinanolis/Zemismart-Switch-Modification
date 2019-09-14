@@ -38,3 +38,4 @@ The Chip is tall, there free pads for VCC, GND and GPIO16. GPIO1 and GPIO3 are u
 * GPIO1 marked on the ESP with Tx as SDA
 * GPIO3 marked with Rx as SCL
 
+![Wireing](https://github.com/meinanolis/Zemismart-Switch-Modification/blob/36a05152045a19ae01fd1d60db242cb51a337bbd/img/Sensors.png "Wireing")
