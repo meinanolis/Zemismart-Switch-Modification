@@ -24,7 +24,7 @@ There are quite a lot [tutorials](https://www.letscontrolit.com/wiki/index.php/B
 
 In my hallway i have two switches. They are connected as shown [here](https://en.wikipedia.org/wiki/Multiway_switching). To make my hallway smart I replaced the first 2-way-switch with the dual smart switch as shown in the below figure.
 
-![Connecting the Mains](https://github.com/meinanolis/Zemismart-Switch-Modification/blob/73456aa9139646c78f6fd4081fd860a0ff3e0f1e/img/2-WegeSchaltung.png "Connecting the Mains")
+![Connecting the Mains](https://github.com/meinanolis/Zemismart-Switch-Modification/blob/749db8b11b09d6f0e8e6732f02485d24d8ad2c45/img/2-WegeSchaltung.png "Connecting the Mains")
 
 Not at al installations there is the N-wire present at the switches. The n-wire, however, is needed to power the smartswitch.
 
