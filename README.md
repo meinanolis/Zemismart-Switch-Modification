@@ -39,3 +39,16 @@ The Chip is tall, there free pads for VCC, GND and GPIO16. GPIO1 and GPIO3 are u
 * GPIO3 marked with Rx as SCL
 
 ![Wireing](https://github.com/meinanolis/Zemismart-Switch-Modification/blob/36a05152045a19ae01fd1d60db242cb51a337bbd/img/Sensors.png "Wireing")
+
+And yes, you can use the HC-SR501 with 3.3V. You just have to connect the power to another pin as shown [here](https://randomnerdtutorials.com/modifying-cheap-pir-motion-sensor-to-work-at-3-3v/).
+
+## Setting up ESPEasy
+
+Now you can setup ESPEasy. 
+
+* The two push buttons are configured as *switch inputs* and button type *active low*.
+* If you like to you can also configure the relais as switches but thats optional.
+* Also the PIR is nothing but a switch input.
+* The configuration of the BMP280 is explained [here](https://www.letscontrolit.com/wiki/index.php?title=BME280).
+
+![ESP_setting](https://github.com/meinanolis/Zemismart-Switch-Modification/blob/36a05152045a19ae01fd1d60db242cb51a337bbd/img/Sensors.png "ESP_setting")
