@@ -22,7 +22,7 @@ There are quite a lot [tutorials](https://www.letscontrolit.com/wiki/index.php/B
 
 ## Connecting the Mains
 
-In my hallway i have two switches. They are connected as shown [here](https://en.wikipedia.org/wiki/Multiway_switching). To make my hallway smart I replaced the first 2-way-switch with the dual smart switch as shown in the below figure.
+In my hallway i have two switches. They are connected as shown below or [here](https://en.wikipedia.org/wiki/Multiway_switching). To make my hallway smart I replaced the first 2-way-switch with the dual smart switch as shown in the below figure.
 
 ![Connecting the Mains](https://github.com/meinanolis/Zemismart-Switch-Modification/blob/749db8b11b09d6f0e8e6732f02485d24d8ad2c45/img/2-WegeSchaltung.png "Connecting the Mains")
 
