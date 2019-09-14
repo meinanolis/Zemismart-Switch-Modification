@@ -26,3 +26,15 @@ In my hallway i have two switches. They are connected as shown [here](https://en
 
 ![Connecting the Mains](https://github.com/meinanolis/Zemismart-Switch-Modification/blob/73456aa9139646c78f6fd4081fd860a0ff3e0f1e/img/2-WegeSchaltung.png "Connecting the Mains")
 
+Not at al installations there is the N-wire present at the switches. The n-wire, however, is needed to power the smartswitch.
+
+**Do not forget to not kill yourself while playing with the mains! Don't be alone, always think twice, no hurry!**
+
+## Connecting the Sensors
+
+The Chip is tall, there free pads for VCC, GND and GPIO16. GPIO1 and GPIO3 are unused at the ESP. All easy. I used:
+
+* GPIO16 as input for the PIR
+* GPIO1 marked on the ESP with Tx as SDA
+* GPIO3 marked with Rx as SCL
+
