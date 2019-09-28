@@ -71,6 +71,7 @@ on System#Boot do
    gpio,13,1
    gpio,14,0
 endon
+
 on RightButton#State do
    if [Relais_1#State]=0
       gpio,13,1
@@ -78,5 +79,29 @@ on RightButton#State do
    else
       gpio,13,0
       gpio,14,1
+endon
+```
+
+In a 2-way switch system you don't know witch state you are in. Therefore a toggle function is Helpful.
+
+```
+on toggle do
+   if [Relais_1#State]=0
+      gpio,13,1
+      gpio,14,0
+   else
+      gpio,13,0
+      gpio,14,1
+endon
+```
+
+Use the LED connectetd to GPIO00 to indicate the state of the PIR. Helps for maintaining.
+
+```
+on Bewegungsmelder#State do
+   if [Bewegungsmelder#State]=0
+      gpio,0,1
+   else
+      gpio,0,0
 endon
 ```
