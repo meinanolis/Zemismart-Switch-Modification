@@ -82,7 +82,7 @@ on RightButton#State do
 endon
 ```
 
-In a 2-way switch system you don't know witch state you are in. Therefore a toggle function is Helpful.
+In a 2-way switch system you don't know witch state you are in. Therefore a toggle function is helpful.
 
 ```
 on toggle do
@@ -95,7 +95,7 @@ on toggle do
 endon
 ```
 
-Use the LED connectetd to GPIO00 to indicate the state of the PIR. Helps for maintaining.
+Use the LED connectetd to GPIO00 to indicate the state of the PIR. Helps maintaining.
 
 ```
 on Bewegungsmelder#State do
