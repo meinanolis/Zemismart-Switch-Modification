@@ -107,3 +107,6 @@ on Bewegungsmelder#State do
       gpio,0,0
 endon
 ```
+
+## Final result
+![Final result](https://raw.githubusercontent.com/meinanolis/Zemismart-Switch-Modification/master/img/IMG_20191001_205900.jpg "Final result")
